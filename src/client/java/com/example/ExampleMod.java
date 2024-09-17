@@ -2,7 +2,7 @@ package com.example;
 
 import com.example.commands.ExampleCommand;
 import com.example.hud.ExampleHudElement;
-import com.example.modules.ExampleModule;
+import com.example.modules.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,7 +26,7 @@ public class ExampleMod implements IAddon {
 	@Override
 	public List<Module> getModules() {
 		// Return a list of your modules here
-		return Arrays.asList(new ExampleModule());
+		return Arrays.asList(new AntiCrawl());
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public String getName() {
-		return "ExampleMod";
+		return "FastAddon";
 	}
 
 	@Override
