@@ -1,4 +1,4 @@
-package com.example.modules;
+package com.fastaddon.modules;
 
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.item.Items;

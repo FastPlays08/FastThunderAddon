@@ -1,8 +1,8 @@
-package com.example;
+package com.fastaddon;
 
-import com.example.commands.ExampleCommand;
-import com.example.hud.ExampleHudElement;
-import com.example.modules.*;
+import com.fastaddon.commands.ExampleCommand;
+import com.fastaddon.hud.ExampleHudElement;
+import com.fastaddon.modules.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,7 +41,7 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public String getPackage() {
-		return "com.example";
+		return "com.fastaddon";
 	}
 
 	@Override
@@ -51,7 +51,7 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public String getAuthor() {
-		return "cvs0";
+		return "fastplays08";
 	}
 
 	@Override

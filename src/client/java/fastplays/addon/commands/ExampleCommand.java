@@ -1,4 +1,4 @@
-package com.example.commands;
+package com.fastaddon.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import net.minecraft.command.CommandSource;

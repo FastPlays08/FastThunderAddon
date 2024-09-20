@@ -1,4 +1,4 @@
-package com.example.hud;
+package com.fastaddon.hud;
 
 import thunder.hack.features.hud.HudElement;
 import net.minecraft.util.Formatting;
