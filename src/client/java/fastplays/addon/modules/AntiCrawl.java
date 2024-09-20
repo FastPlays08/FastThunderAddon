@@ -1,4 +1,4 @@
-package com.fastaddon.modules;
+package fastplays.addon.modules;
 
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.item.Items;

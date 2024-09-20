@@ -1,4 +1,4 @@
-package com.fastaddon.commands;
+package fastplays.addon.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import net.minecraft.command.CommandSource;

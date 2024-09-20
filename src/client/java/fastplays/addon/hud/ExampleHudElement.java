@@ -1,4 +1,4 @@
-package com.fastaddon.hud;
+package fastplays.addon.hud;
 
 import thunder.hack.features.hud.HudElement;
 import net.minecraft.util.Formatting;

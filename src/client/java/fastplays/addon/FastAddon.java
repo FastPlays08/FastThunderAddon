@@ -1,8 +1,8 @@
-package com.fastaddon;
+package fastplays.addon;
 
-import com.fastaddon.commands.ExampleCommand;
-import com.fastaddon.hud.ExampleHudElement;
-import com.fastaddon.modules.*;
+import fastplays.addon.commands.ExampleCommand;
+import fastplays.addon.hud.ExampleHudElement;
+import fastplays.addon.modules.AntiCrawl;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExampleMod implements IAddon {
+public class fastaddon implements IAddon {
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
 	@Override
@@ -41,7 +41,7 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public String getPackage() {
-		return "com.fastaddon";
+		return "fastplays.addon";
 	}
 
 	@Override
