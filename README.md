@@ -8,6 +8,7 @@ DO NOT USE!!!
 ## FastPlays Thunderhack addon
 (Plans to maybe one day port blackout to this)
 
+![GitHub Release](https://img.shields.io/github/v/release/FastPlays08/FastThunderAddon)
 
 
 ### Getting Started
