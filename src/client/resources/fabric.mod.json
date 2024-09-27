@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "fastaddon",
-	"version": "${version}",
+	"version": "${mod_version}",
 	"name": "FastAddon",
 	"description": "Addon for thunderhack to add utils and stuff",
 	"authors": [

@@ -13,10 +13,11 @@ public class AntiCrawl extends Module  {
 
     @EventHandler
     public void onTick(EventTick event) {
-        if (this.mc.player.getInventory().getArmorStack(2).getItem() == Items.ELYTRA && this.mc.player.isFallFlying()) {
+        assert mc.player != null;
+        if (mc.player.getInventory().getArmorStack(2).getItem() == Items.ELYTRA && mc.player.isFallFlying() || mc.player.isInSneakingPose()) {
             return;
         }
-        this.mc.player.setPose(EntityPose.STANDING);
+        mc.player.setPose(EntityPose.STANDING);
     }
 
 }
