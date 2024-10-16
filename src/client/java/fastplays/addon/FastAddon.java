@@ -32,6 +32,7 @@ public class fastaddon implements IAddon {
 	@Override
 	public List<Command> getCommands() {
 		return Arrays.asList(new ExampleCommand());
+		return Arrays.asList(new shutdowncommand());
 	}
 
 	@Override
